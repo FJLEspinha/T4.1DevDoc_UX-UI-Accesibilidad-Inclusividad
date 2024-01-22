@@ -39,5 +39,6 @@ Por otra parte, los modales que saltan están implementados con HTML y CSS y
 los elementos con los que el usuario puede interactuar responden a HTML Native, CSS y JavaScript.
 Indicar también que en el carrusel, la cartelera está diseñada con Bootstrap implementado mediante el CDN correspondiente.
 Finalmente, el cambio de color que sufren los botones incluidos en La Ley de Contraste fue implementado mediante una función de JavaScript.
-Para hacer que fuese responsive se uso Flexbox
+Para hacer que fuese responsive se uso Flexbox.
+Tengase en cuenta el favicon añadido.
 
