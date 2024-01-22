@@ -3,7 +3,7 @@ En este trabajo se pretende mostrar la usabilidad de las leyes de **UX** que exi
 funcionamiento.
 A continuación se pasa a dar una muy breve descripción de las leyes escogidas, de la interactividad 
 y del uso de estas en la página.
-Par poder probarla [pincha aquí]](https://fjlespinha.github.io/T4.1DevDoc_UX-UI-Accesibilidad-Inclusividad/).
+Par poder probarla [pincha aquí](https://fjlespinha.github.io/T4.1DevDoc_UX-UI-Accesibilidad-Inclusividad/).
 # Ley de contraste
 Según la ley de contraste observamos que al tener un grupo de elementos
 de forma igual o similar, si uno de ellos se diferencia en algo del resto - tamaño,
