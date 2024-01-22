@@ -1,0 +1,331 @@
+html {
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+}
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+    background-color: aquamarine;
+    border-radius: 2px solid black;
+}
+
+.navbar {
+    min-width: 100%;    /*140%*/
+    flex-wrap: wrap;
+    background-color: #FC6060;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+
+.button-modal {
+    display: block;
+    margin: auto;
+    width: 10rem;
+    height: 2rem;
+}
+
+/*Código para los modales*/
+:modal {
+    background-color: beige;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+}
+
+.a-nav {
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.image {
+    padding-bottom: 25px;
+}
+
+.title {
+    padding-bottom: 20px;
+}
+
+
+
+.container {
+    width: 100%;
+    height: auto;    /*1200px*/
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    position: relative;
+
+}
+
+.title-main {
+    width: 100%;
+    font-size: xx-large;
+    padding: 10px;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 5px;
+
+}
+
+.ley-contraste,
+.ley-hick,
+.ley-miller {
+
+    text-align: center;
+    padding: 65px;
+}
+
+.hick {
+    width: 200px;
+    height: 200px;
+}
+
+.miller {
+    width: 250px;
+    height: 200px;
+}
+
+.contraste {
+    width: 200px;
+    height: 200px;
+}
+
+.name-law {
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+    justify-self: center;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.group-button {
+    width: 390px;    /*160px*/
+    height: 200px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background-color: blueviolet;
+
+}
+
+#button-dif {
+    background-color: blue;
+}
+
+.change-button {
+    height: 30px;
+    background-color: yellow;
+    border-radius: 10px;
+
+}
+
+.especial-button {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+#rate {
+    position: relative;
+    text-align: center;
+}
+
+.group-discounts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 50px;
+
+}
+
+.discount-1 {
+    width: 140px;
+    height: 220px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(149, 149, 216);
+    border-radius: 7px;
+}
+
+.title-discount {
+    background-color: yellow;
+    padding-top: -10px;
+
+}
+
+.join {
+    width: 90px;
+    border-radius: 10px;
+    background-color: lightpink;
+    align-items: center;
+}
+
+#join-2 {
+    position: -3px;
+}
+
+#premium {
+    width: 160px;
+    height: 250px;
+    background-color: rgb(188, 188, 234);
+}
+
+.difer {
+    background-color: lightcoral;
+}
+
+.container-carrusel {
+    width: 100%;
+    top: 90px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.cartel {
+    width: 100%;
+    height: 10px;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.information {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    text-align: center;
+}
+
+.p-descripcion {
+    padding-top: 50px;
+    padding-right: 10px;
+    z-index: 1;
+    font-weight: bolder;
+    font-size: large;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+#text-info {
+    width: 100%;
+    display: flex;
+    border: 2px solid gray;
+    border-radius: 20px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: purple;
+    padding-top: 30px;
+    width: 200px;
+    height: 160px;
+}
+
+.name-law-m {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    text-transform: capitalize;
+    padding: 50px;
+}
+
+.items-menu {
+    display: none;
+}
+
+.menu-in {
+    width: 100%;
+    padding-left: 50px;
+    position: absolute;
+    padding-top: 120px;
+    z-index: 2;
+}
+
+.li-items {
+    width: 200px;
+    cursor: pointer;
+}
+
+input:checked~ul {
+    display: block;
+}
+
+input {
+    display: none;
+}
+
+label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+}
+
+.li-items {
+    display: block;
+    background: lightgrey;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+}
+
+.down {
+    min-width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 0px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: bisque;
+    padding: 5px;
+
+}

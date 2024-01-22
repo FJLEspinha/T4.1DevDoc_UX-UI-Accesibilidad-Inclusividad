@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Estilos propios -->
+    <link rel="icon" type="image/jpg" href="/images/favUX.jpg">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Ley de Miller</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <a id="home" class="a-nav" href="index.html" title="Click para ir a inicio">HOME</a>
+            <a id="contact" class="a-nav" title="Click para saber como contactar con nosotros">CONTACT
+                <dialog id="showContact">
+                    <form method="dialog">
+                        <p><strong>Tlf: </strong>+43-645-983-346</p>
+                        <p><strong>Email: </strong>just@hotmail.com</p>
+                        <p><strong>Dirección: </strong>C/ Los Dolores Nº6</p>
+                        <p><strong>Ciudad: </strong>Zarzaparrilla</p>
+                        <p><strong>País: </strong>Mónaco</p>
+                        <button class="button-modal">Cerrar</button>
+                </dialog>
+                </dialog>
+                </form>
+            </a>
+            <a id="about" class="a-nav" title="Click para saber mas sobre nosotros">ABOUT
+                <dialog id="showAbout">
+                    <form method="dialog">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est modi laborum similique porro
+                            aspernatur vel corporis exercitationem mollitia cumque, saepe doloribus optio magni omnis
+                            soluta, neque nihil illo a cum?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis itaque ut autem libero non.
+                            Eius exercitationem sequi excepturi maiores, consequuntur quia impedit iusto porro alias
+                            quisquam enim ea soluta facilis.</p>
+                        <button class="button-modal">Cerrar</button>
+                    </form>
+
+                </dialog>
+            </a>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="name-law-m">
+            <h1>Ley de Miller</h1>
+        </div>
+
+        <div class="menu-in">
+            <h4>Menú información de las películas</h4>
+            <nav>
+                <input type="checkbox" id="menu">
+                <label for="menu"> ☰ </label>
+                <ul class="items-menu">
+                    <li id="fast" class="li-items"><a href="#info">Fast X</a></li>
+                    <li id="guad" class="li-items"><a href="#info">Guardians of the Galaxy Vol.3</a></li>
+                    <li id="spi" class="li-items"><a href="#info"> into SpiderVerse</a></li>
+                    <li id="sm" class="li-items"><a href="#info"> Super Mario Bros</a></li>
+                    <li id="crea" class="li-items"><a href="#info"> The Creator</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!-- Carrusel bootstrap-->
+
+        <div class="container-carrusel">
+
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+
+                <h3 class="cartel">Cartelera</h3>
+                <div id="continer-images" class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img id="fastx" src="images/FastX.jpg" class="d-block w-100"
+                            alt="Imagen del poster de la pelicula Fast X" title="FastX">
+                    </div>
+                    <div class="carousel-item">
+                        <img id="guardians" src="images/Guadians_Galaxy3.jpg" class="d-block w-100"
+                            alt="Imagen del poster de la pelicula Guardianes de la Galaxia Vol. 3"
+                            title="Guadians of the Galaxy vol. 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img id="spider" src="images/SpiderMan.jpg" class="d-block w-100"
+                            alt="Imagen del poster de la pelicula Spider-Man into the SpiderVerse"
+                            title="Spider-Man into the SpiderVerse">
+                    </div>
+                    <div class="carousel-item">
+                        <img id="super-mario" src="images/Super_Mario.jpg" class="d-block w-100"
+                            alt="Imagen del poster de la pelicula Super Mario Bros"
+                            title="Super Mario Bros La película">
+                    </div>
+                    <div class="carousel-item">
+                        <img id="creator" src="images/The_Creator.jpg" class="d-block w-100"
+                            alt="Imagen del poster de la pelicula The Creator" title="The Creator">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+        </br>
+
+        <section id="info" class="information" style="visibility: hidden">
+            <p class="p-descripcion" style="visibility: visible;"><strong>Descripcion:</strong>
+                <a style="visibility: visible;" href="#home"> Selecciona película en el menú para ver info </a>
+
+            </p>
+
+            <p id="text-info">...</p>
+
+        </section>
+        </br>
+    </main>
+
+
+    <footer>
+        <div class="down">
+            <p><strong> Trabajo de ©Fran Lorenzo - Interfaces 2024 </strong></p>
+        </div>
+    </footer>
+
+    <script type="module" src="scriptMiller.js"></script>
+</body>
+
+</html>
